@@ -1,5 +1,6 @@
 @import '../../styles/global/variables';
 
+
 .info {
   margin-bottom: 7px;
 }
@@ -37,4 +38,8 @@
   transform: translateY(-50%);
   font-size: 22px;
   cursor: pointer;
+}
+
+.metaverse{
+  background-image: url('../../assets/banner-bg.jpg');
 }
