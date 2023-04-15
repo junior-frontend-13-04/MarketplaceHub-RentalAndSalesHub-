@@ -1,7 +1,7 @@
 import {useRef} from "react";
 import {useFrame} from "react-three-fiber";
 import {Mesh} from "three";
-import "./styles.css";
+
 
 export const Cube = () => {
     const cube = useRef<Mesh>(null);

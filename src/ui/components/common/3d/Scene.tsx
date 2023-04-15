@@ -1,4 +1,4 @@
-import {Cube} from "src/common/3d/Cube";
+import {Cube} from "src/ui/components/common/3d/Cube";
 
 export const Scene = () => {
     return (

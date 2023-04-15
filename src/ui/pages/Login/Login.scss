@@ -1,0 +1,40 @@
+@import '../../styles/global/variables';
+
+.info {
+  margin-bottom: 7px;
+}
+
+.link-registration {
+  color: $color4;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.link-recovery {
+  display: inline-block;
+  float: right;
+  color: $color2;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.password-wrapper {
+  margin-top: 12px;
+  position: relative;
+}
+
+.eye {
+  display: inline-block;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 22px;
+  cursor: pointer;
+}
