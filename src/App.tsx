@@ -1,25 +1,34 @@
-import React from 'react';
-import logo from './logo.svg';
+import {Canvas} from "react-three-fiber";
+import {OrbitControls, Stats} from "@react-three/drei";
+import {Suspense} from "react";
+import {Scene} from "src/common/Cube";
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+export const App = () => {
+    return (
+        <div
+            style={{
+                height: "100vh",
+                width: "100vw",
+            }}
         >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+            <Canvas
+                camera={{
+                    near: 0.1,
+                    far: 1000,
+                    zoom: 1,
+                }}
+                onCreated={({ gl }) => {
+                    gl.setClearColor("#252934");
+                }}
+            >
+                <Stats />
+                <OrbitControls />
+                <Suspense fallback={null}>
+                    <Scene />
+                </Suspense>
+            </Canvas>
+        </div>
+    );
+};
 
-export default App;
