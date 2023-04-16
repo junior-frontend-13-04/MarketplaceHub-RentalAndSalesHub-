@@ -1,6 +1,6 @@
 @import '../../styles/global/variables';
 
-.login{
+.login {
   background-image: url('../../assets/images/banner-bg.jpg');
   animation: 5s show ease;
   min-height: 100vh;
@@ -8,6 +8,7 @@
   justify-content: center;
 
 }
+
 .info {
   margin-bottom: 7px;
 
@@ -50,6 +51,10 @@
 
 
 @keyframes show {
-  from { opacity: 0; }
-  to { opacity: 1; }
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }

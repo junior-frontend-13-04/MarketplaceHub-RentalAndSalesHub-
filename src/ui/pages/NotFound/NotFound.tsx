@@ -1,6 +1,7 @@
 import React from 'react'
 import {NavLink} from 'react-router-dom';
-// import notFound from '../../assets/images/notFound.svg';
+import notFound from '../../assets/images/notFound.svg';
+
 const NotFound = () => {
     return (
         <div className="not-found">
@@ -12,7 +13,7 @@ const NotFound = () => {
                         <NavLink to={'/'} className="styled-btn styled-btn-1">Back to home page</NavLink>
                     </div>
                     <div className="right">
-                        {/*<img src={notFound} alt=""/>*/}
+                        <img src={notFound} alt=""/>
                     </div>
                 </div>
             </div>

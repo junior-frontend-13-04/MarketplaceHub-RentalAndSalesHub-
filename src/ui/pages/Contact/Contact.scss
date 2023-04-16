@@ -1,5 +1,7 @@
 @import 'src/ui/styles/global/variables';
 
-.contact{
-  background: $color1;
+.contact {
+  background-color: $color1;
+  min-height: 100vh;
+  display: flex;
 }
