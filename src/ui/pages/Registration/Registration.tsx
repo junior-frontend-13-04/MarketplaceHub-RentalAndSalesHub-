@@ -58,6 +58,7 @@ const Registration = () => {
         return <Preloader />
     }
     return (
+        <div className="metaverse">
         <div className={'form registration'}>
             <div className='form-wrapper auth-form'>
                 {status === 'failed' ? <Error errorText={error} /> : ''}
@@ -107,6 +108,7 @@ const Registration = () => {
                 <span className={'info b-title bt14 color6 align-center semibold'}>Already have an account?</span>
                 <NavLink to={'/login'} className="b-title bt16 semibold link-registration align-center"><span>Sign In</span></NavLink>
             </div>
+        </div>
         </div>
     );
 };
