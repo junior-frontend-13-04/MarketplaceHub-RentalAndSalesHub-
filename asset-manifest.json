@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/MarketplaceHub-RentalAndSalesHub-/static/css/main.82cfe749.css",
+    "main.js": "/MarketplaceHub-RentalAndSalesHub-/static/js/main.4f2a7abd.js",
+    "static/media/banner-bg.jpg": "/MarketplaceHub-RentalAndSalesHub-/static/media/banner-bg.ef424a396f6be282227f.jpg",
+    "static/media/photo-1607853554439-0069ec0f29b6.avif": "/MarketplaceHub-RentalAndSalesHub-/static/media/photo-1607853554439-0069ec0f29b6.fc0e37f2fa02618e69fb.avif",
+    "static/media/photo-1549399542-7e3f8b79c341.avif": "/MarketplaceHub-RentalAndSalesHub-/static/media/photo-1549399542-7e3f8b79c341.f9cecc5e0408ac121eef.avif",
+    "static/media/premium_photo-1673264861392-ec613a45312a.avif": "/MarketplaceHub-RentalAndSalesHub-/static/media/premium_photo-1673264861392-ec613a45312a.e206c065ce7e19d825c9.avif",
+    "static/media/photo-1582647509711-c8aa8a8bda71.avif": "/MarketplaceHub-RentalAndSalesHub-/static/media/photo-1582647509711-c8aa8a8bda71.d5eb3807dadb8b0920ab.avif",
+    "static/media/photo-1479839672679-a46483c0e7c8.avif": "/MarketplaceHub-RentalAndSalesHub-/static/media/photo-1479839672679-a46483c0e7c8.6d20f54ccccd45134f13.avif",
+    "static/media/photo-1627097170492-1041ecd6c3c5.avif": "/MarketplaceHub-RentalAndSalesHub-/static/media/photo-1627097170492-1041ecd6c3c5.0d06932fd7a6f2354bf1.avif",
+    "static/media/photo-1534882673463-e4781854e9b4.avif": "/MarketplaceHub-RentalAndSalesHub-/static/media/photo-1534882673463-e4781854e9b4.9dbc6a83c711dcaef091.avif",
+    "static/media/notFound.svg": "/MarketplaceHub-RentalAndSalesHub-/static/media/notFound.384690d35155d3ea99b2b45a64437e90.svg",
+    "static/media/photo-1583692717320-0c9661d49d9a.avif": "/MarketplaceHub-RentalAndSalesHub-/static/media/photo-1583692717320-0c9661d49d9a.7d18f14015a5b6a3769c.avif",
+    "index.html": "/MarketplaceHub-RentalAndSalesHub-/index.html",
+    "main.82cfe749.css.map": "/MarketplaceHub-RentalAndSalesHub-/static/css/main.82cfe749.css.map",
+    "main.4f2a7abd.js.map": "/MarketplaceHub-RentalAndSalesHub-/static/js/main.4f2a7abd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.82cfe749.css",
+    "static/js/main.4f2a7abd.js"
+  ]
+}
