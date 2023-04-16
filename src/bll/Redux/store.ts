@@ -1,8 +1,8 @@
 import { AnyAction, applyMiddleware, combineReducers, legacy_createStore } from 'redux'
 import { TypedUseSelectorHook, useDispatch, useSelector } from "react-redux";
 import thunkMiddleware, { ThunkAction, ThunkDispatch } from 'redux-thunk'
-import { appReducer } from './app-reducer'
-import { authReducer } from './auth-reducer';
+import { appReducer } from 'src/bll/Redux/app-reducer'
+import { authReducer } from 'src/bll/Redux/auth-reducer';
 
 
 export type RootStateType = ReturnType<typeof rootReducer>;

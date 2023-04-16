@@ -5,9 +5,9 @@ import { Navigate, NavLink } from "react-router-dom";
 import { AiFillEye } from "react-icons/ai";
 import Input from "src/ui/components/common/Input/Input";
 import Preloader from "src/ui/components/common/Preloader/Preloader";
-import {setAppError} from "src/dal/Redux/app-reducer";
-import {register} from "src/dal/Redux/auth-reducer";
-import {useAppDispatch, useAppSelector} from "src/dal/Redux/store";
+import {setAppError} from "src/bll/Redux/app-reducer";
+import {register} from "src/bll/Redux/auth-reducer";
+import {useAppDispatch, useAppSelector} from "src/bll/Redux/store";
 import {Error} from "src/ui/components/common/Error/Error";
 
 

@@ -1,7 +1,7 @@
 import axios, {AxiosResponse} from 'axios';
 import { instance } from './instance';
 import {LoginDataType} from "src/ui/pages/Login/Login";
-import {ProfileType} from "src/dal/Redux/profile-reducer";
+import {ProfileType} from "src/bll/Redux/profile-reducer";
 
 
 export type RegisterParamsType = {

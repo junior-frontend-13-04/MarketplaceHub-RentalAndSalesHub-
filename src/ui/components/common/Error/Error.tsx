@@ -1,6 +1,6 @@
 import React from 'react'
-import {useAppDispatch, useAppSelector} from "src/dal/Redux/store";
-import {setAppError} from "src/dal/Redux/app-reducer";
+import {useAppDispatch, useAppSelector} from "src/bll/Redux/store";
+import {setAppError} from "src/bll/Redux/app-reducer";
 // import { setAppError } from '../../../store/app-reducer'
 // import { useAppDispatch, useAppSelector } from '../../../store/store'
 

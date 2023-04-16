@@ -5,8 +5,8 @@ import { Navigate, useParams } from 'react-router-dom'
 import Input from '../../components/common/Input/Input'
 import { Error } from '../../components/common/Error/Error';
 import Preloader from '../../components/common/Preloader/Preloader'
-import {useAppDispatch, useAppSelector} from "src/dal/Redux/store";
-import {newPassword} from "src/dal/Redux/auth-reducer";
+import {useAppDispatch, useAppSelector} from "src/bll/Redux/store";
+import {newPassword} from "src/bll/Redux/auth-reducer";
 
 export type LoginFormDataType = {
   password: string

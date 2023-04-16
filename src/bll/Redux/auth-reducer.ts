@@ -1,8 +1,8 @@
 
-import { authAPI, newPasswordDataType, recoveryPasswordAPI, RegisterParamsType } from "../api/auth-api"
-import { setAppError, SetAppErrorActionType, setAppStatus, SetAppStatusActionType, setIsInitialized } from "./app-reducer"
-import { AppThunkType } from "./store"
-import {setProfile} from "src/dal/Redux/profile-reducer";
+import { authAPI, newPasswordDataType, recoveryPasswordAPI, RegisterParamsType } from "src/dal/api/auth-api"
+import { setAppError, SetAppErrorActionType, setAppStatus, SetAppStatusActionType, setIsInitialized } from "src/bll/Redux/app-reducer"
+import { AppThunkType } from "src/bll/Redux/store"
+import {setProfile} from "src/bll/Redux/profile-reducer";
 
 
 const initialState = {

@@ -1,9 +1,9 @@
-import {EditDataUserType, profileAPI} from '../api/profile-api';
-import {setAppError, setAppStatus} from './app-reducer';
-import { AppThunkType } from "./store";
+import {EditDataUserType, profileAPI} from 'src/dal/api/profile-api';
+import {setAppError, setAppStatus} from 'src/bll/Redux/app-reducer';
+import { AppThunkType } from "src/bll/Redux/store";
 
-import {authAPI} from '../api/auth-api';
-import {setIsLoggedIn} from './auth-reducer';
+import {authAPI} from 'src/dal/api/auth-api';
+import {setIsLoggedIn} from 'src/bll/Redux/auth-reducer';
 import {handleServerNetworkError} from "src/utils/error-utils";
 import {LoginDataType} from "src/ui/pages/Login/Login";
 

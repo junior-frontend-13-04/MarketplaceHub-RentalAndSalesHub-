@@ -4,9 +4,9 @@ import Input from '../../components/common/Input/Input'
 import { useFormik } from 'formik';
 import { Error } from '../../components/common/Error/Error';
 import Preloader from '../../components/common/Preloader/Preloader';
-import {useAppDispatch, useAppSelector} from "src/dal/Redux/store";
-import {forgot} from "src/dal/Redux/auth-reducer";
-import {setAppError} from "src/dal/Redux/app-reducer";
+import {useAppDispatch, useAppSelector} from "src/bll/Redux/store";
+import {forgot} from "src/bll/Redux/auth-reducer";
+import {setAppError} from "src/bll/Redux/app-reducer";
 
 
 type FormikErrorType = {

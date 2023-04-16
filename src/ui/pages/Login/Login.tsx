@@ -6,9 +6,9 @@ import { AiFillEye, AiFillEyeInvisible } from 'react-icons/ai';
 import './Login.scss';
 import { Error } from '../../components/common/Error/Error';
 import Preloader from '../../components/common/Preloader/Preloader';
-import {useAppDispatch, useAppSelector} from "src/dal/Redux/store";
-import {getProfile} from "src/dal/Redux/profile-reducer";
-import {setAppError, setAppStatus} from "src/dal/Redux/app-reducer";
+import {useAppDispatch, useAppSelector} from "src/bll/Redux/store";
+import {getProfile} from "src/bll/Redux/profile-reducer";
+import {setAppError, setAppStatus} from "src/bll/Redux/app-reducer";
 
 
 export type LoginDataType = {

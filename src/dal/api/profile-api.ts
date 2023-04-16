@@ -1,5 +1,5 @@
 import { instance } from './instance';
-import {ProfileType} from "src/dal/Redux/profile-reducer";
+import {ProfileType} from "src/bll/Redux/profile-reducer";
 
 
 
