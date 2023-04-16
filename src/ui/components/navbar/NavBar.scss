@@ -1,0 +1,68 @@
+@import '../../styles/global/variables';
+
+.navbar {
+  background-color: $color1; /* измените цвет фона на свой вкус */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+
+  .navbar-nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    height: 60px; /* задайте высоту навигационного меню на свой вкус */
+
+    .nav-item {
+      margin: 0 10px;
+
+      .nav-link {
+        display: inline-block;
+        padding: 10px;
+        text-decoration: none;
+        color: $color2;
+        transition: transform 0.3s ease;
+
+        &:hover {
+          transform: scale(1.2);
+        }
+      }
+    }
+  }
+
+  .login-container {
+    display: flex;
+    align-items: center;
+  }
+
+  .hamburger-button {
+    display: none;
+    background-color: transparent;
+    border: none;
+    color: #000000;
+    font-size: 24px;
+    cursor: pointer;
+    margin-left: 200px;
+  }
+
+  @media (max-width: 768px) {
+    .nav-links {
+      display: none;
+    }
+
+    .hamburger-button {
+      display: block;
+    }
+
+    .login-container {
+      margin-right: 20px;
+    }
+  }
+
+}
+
+

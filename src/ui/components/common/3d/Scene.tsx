@@ -1,4 +1,5 @@
 import {Cube} from "src/ui/components/common/3d/Cube";
+import React from "react";
 
 export const Scene = () => {
     return (

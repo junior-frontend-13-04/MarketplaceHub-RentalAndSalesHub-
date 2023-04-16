@@ -1,8 +1,10 @@
 import {Canvas} from "react-three-fiber";
 import {OrbitControls, Stats} from "@react-three/drei";
-import {Suspense} from "react";
+import React, {Suspense} from "react";
 import 'src/ui/components/common/3d/My3DModel.scss';
 import {Scene} from "src/ui/components/common/3d/Scene";
+
+
 
 export const My3DModel = () => {
     return (

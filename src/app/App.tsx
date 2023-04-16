@@ -11,6 +11,9 @@ import Login from "src/ui/pages/Login/Login";
 import NewPassword from "src/ui/pages/NewPassword/NewPassword";
 import RecoveryPassword from "src/ui/pages/RecoveryPassword/RecoveryPassword";
 import NotFound from "src/ui/pages/NotFound/NotFound";
+import {NavBar} from "src/ui/components/navbar/NavBar";
+
+
 
 
 function App() {
@@ -24,6 +27,7 @@ function App() {
 
     return (
         <div className="App">
+            <NavBar/>
             <My3DModel/>
             {!isInitialized
                 ? <Preloader/>
