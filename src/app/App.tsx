@@ -13,15 +13,15 @@ import RecoveryPassword from "src/ui/pages/RecoveryPassword/RecoveryPassword";
 import NotFound from "src/ui/pages/NotFound/NotFound";
 import {NavBar} from "src/ui/components/navbar/NavBar";
 import CardList from "src/ui/components/Properties/CardList";
-
-
+import {About} from "src/ui/pages/About/About";
+import {Home} from "src/ui/pages/Home/Home";
 
 
 function App() {
     const dispatch = useAppDispatch();
     const isInitialized = useAppSelector(state => state.app.isInitialized);
 
-    const cardsData= [
+    const cardsData = [
         {
             id: 1,
             title: 'Квартира в аренду',
@@ -159,13 +159,16 @@ function App() {
 
     return (
         <div className="App">
-            <NavBar/>
-            <My3DModel/>
-            <CardList cards={cardsData}/>
+          <Home/>
             {!isInitialized
                 ? <Preloader/>
                 : <div className="content">
                     <Routes>
+                        <Route path="/" element={<Home/>}/>
+                        <Route path="/about" element={<About/>}/>
+                        <Route path="/properties" element={ <CardList cards={cardsData}/>}/>
+                        <Route path="/registration" element={<Registration/>}/>
+                        <Route path="/registration" element={<Registration/>}/>
                         <Route path="/registration" element={<Registration/>}/>
                         <Route path="/login" element={<Login/>}/>
                         <Route path="/recovery-password" element={<RecoveryPassword/>}/>

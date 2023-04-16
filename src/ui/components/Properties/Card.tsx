@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import './Card.scss';
 
 export type CardType = {
@@ -7,7 +7,7 @@ export type CardType = {
     subtitle: string;
     image: string;
     content: string;
-    price: string | number;
+    price?: number | string;
     additionalInfo: string[];
     buttonText: string;
 };
@@ -21,8 +21,19 @@ const Card = ({
                   additionalInfo,
                   buttonText,
               }: CardType) => {
+    const [hovered, setHovered] = useState(false);
+
+    const handleMouseEnter = () => {
+        setHovered(true);
+    };
+
+    const handleMouseLeave = () => {
+        setHovered(false);
+    };
     return (
-        <div className="card">
+        <div   className={`card ${hovered ? 'card--hovered' : ''}`}
+               onMouseEnter={handleMouseEnter}
+               onMouseLeave={handleMouseLeave}>
             <h2 className="card__title">{title}</h2>
             <h3 className="card__subtitle">{subtitle}</h3>
             <img className="card__image" src={image} alt={title} />
@@ -34,8 +45,8 @@ const Card = ({
             )}
             {additionalInfo && (
                 <div className="card__additional-info">
-                    {additionalInfo.map((info,index:number) => (
-                        <div className="card__additional-info__item" >{info}</div>
+                    {additionalInfo.map((info) => (
+                        <div className="card__additional-info__item">{info}</div>
                     ))}
                 </div>
             )}
