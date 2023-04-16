@@ -68,7 +68,6 @@ const Login = () => {
   }
 
   return (
-      <div className="metaverse">
     <div className="login">
       {status === 'loading' ? <Preloader /> : ""}
       <div className="container">
@@ -113,7 +112,6 @@ const Login = () => {
             className="b-title bt16 semibold link-registration align-center"><span>Sign Up</span></NavLink>
         </div>
       </div>
-    </div>
     </div>
   )
 }

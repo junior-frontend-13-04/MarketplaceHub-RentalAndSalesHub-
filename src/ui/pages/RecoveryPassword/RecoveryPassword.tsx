@@ -47,8 +47,7 @@ const RecoveryPassword = () => {
     return <Preloader />
   }
   return (
-      <div className="metaverse">
-    <div className="recovery-password">
+    <div className="login recovery-password">
       <div className="container">
         <div className="form-wrapper auth-form">
           {status === 'failed' ? <Error errorText={error} /> : ''}
@@ -69,7 +68,6 @@ const RecoveryPassword = () => {
           </div>
         </div>
       </div>
-    </div>
     </div>
   )
 }

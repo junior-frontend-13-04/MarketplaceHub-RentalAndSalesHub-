@@ -10,32 +10,32 @@ export const NavBar = () => {
             <nav className="navbar">
                 <ul className="navbar-nav">
                     <li className="nav-item b-title bt16">
-                        <NavLink to={"/"} target={'_blank'} className="nav-link">
+                        <NavLink to={"/"} className="nav-link">
                             Home
                         </NavLink>
                     </li>
                     <li className="nav-item b-title bt16">
-                        <NavLink to={"/about"} target={'_blank'} className="nav-link">
+                        <NavLink to={"/about"} className="nav-link">
                             About
                         </NavLink>
                     </li>
                     <li className="nav-item b-title bt16">
-                        <NavLink to={"/marketplace"} target={'_blank'} className="nav-link">
+                        <NavLink to={"/marketplace"}  className="nav-link">
                             Marketplace
                         </NavLink>
                     </li>
                     <li className="nav-item b-title bt16">
-                        <NavLink to={"/services"} target={'_blank'} className="nav-link">
+                        <NavLink to={"/services"}  className="nav-link">
                             Services
                         </NavLink>
                     </li>
                     <li className="nav-item b-title bt16">
-                        <NavLink to={"/contact"} target={'_blank'} className="nav-link">
+                        <NavLink to={"/contact"} className="nav-link">
                             Contact
                         </NavLink>
                     </li>
                     <li className="nav-item b-title bt16">
-                        <NavLink to={"/login"} target={'_blank'} className="nav-link key">
+                        <NavLink to={"/login"}  className="nav-link key">
                             <img src={key} alt="auth"/>
                         </NavLink>
                     </li>

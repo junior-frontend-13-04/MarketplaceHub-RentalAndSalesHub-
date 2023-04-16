@@ -24,6 +24,7 @@ import apartment7 from "src/ui/assets/images/photo-1583692717320-0c9661d49d9a.av
 import apartment6 from "src/ui/assets/images/photo-1582647509711-c8aa8a8bda71.avif";
 import apartment8 from "src/ui/assets/images/photo-1534882673463-e4781854e9b4.avif";
 import apartment9 from "src/ui/assets/images/photo-1479839672679-a46483c0e7c8.avif";
+import {NavBar} from "src/ui/components/navbar/NavBar";
 
 
 function App() {
@@ -164,7 +165,7 @@ function App() {
 
     return (
         <div className="App">
-            <Home/>
+            <NavBar/>
             {!isInitialized
                 ? <Preloader/>
                 : <div className="content">

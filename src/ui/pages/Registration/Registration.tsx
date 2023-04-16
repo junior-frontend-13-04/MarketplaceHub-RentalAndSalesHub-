@@ -58,8 +58,8 @@ const Registration = () => {
         return <Preloader />
     }
     return (
-        <div className="metaverse">
-        <div className={'form registration'}>
+        <div className="login">
+        <div className='container'>
             <div className='form-wrapper auth-form'>
                 {status === 'failed' ? <Error errorText={error} /> : ''}
                 <div className={'title b-title bt26 semibold align-center'}>Sign Up</div>

@@ -1,8 +1,16 @@
 @import '../../styles/global/variables';
 
+.login{
+  background-image: url('../../assets/images/banner-bg.jpg');
+  animation: 5s show ease;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
 
+}
 .info {
   margin-bottom: 7px;
+
 }
 
 .link-registration {
@@ -40,10 +48,7 @@
   cursor: pointer;
 }
 
-.metaverse{
-  background-image: url('../../assets/images/banner-bg.jpg');
-  animation: 5s show ease;
-}
+
 @keyframes show {
   from { opacity: 0; }
   to { opacity: 1; }
