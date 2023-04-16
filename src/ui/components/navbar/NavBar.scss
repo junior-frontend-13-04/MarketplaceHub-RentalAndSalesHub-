@@ -15,7 +15,7 @@
     list-style-type: none;
     margin: 0;
     padding: 0;
-    height: 60px; /* задайте высоту навигационного меню на свой вкус */
+    height: 60px;
 
     .nav-item {
       margin: 0 10px;
@@ -34,35 +34,30 @@
     }
   }
 
-  .login-container {
-    display: flex;
-    align-items: center;
-  }
-
-  .hamburger-button {
-    display: none;
-    background-color: transparent;
-    border: none;
-    color: #000000;
-    font-size: 24px;
-    cursor: pointer;
-    margin-left: 200px;
-  }
-
   @media (max-width: 768px) {
-    .nav-links {
-      display: none;
-    }
+    .navbar-nav {
+      flex-direction: column;
+      align-items: flex-start;
+      height: auto;
 
-    .hamburger-button {
-      display: block;
-    }
+      .nav-item {
+        margin: 10px 0;
 
-    .login-container {
-      margin-right: 20px;
+        .nav-link {
+          padding: 10px 0;
+          border-bottom: 1px solid $color2;
+          width: 100%;
+          text-align: center;
+
+          &:last-child {
+            border-bottom: none;
+          }
+        }
+      }
     }
   }
-
 }
 
-
+.key{
+  height: 50px;
+}

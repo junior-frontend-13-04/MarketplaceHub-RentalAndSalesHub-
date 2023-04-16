@@ -1,6 +1,7 @@
 import React from 'react';
 import {Link, NavLink} from "react-router-dom";
 import './NavBar.scss';
+import key from'../../assets/images/key.png'
 
 
 export const NavBar = () => {
@@ -33,13 +34,13 @@ export const NavBar = () => {
                             Contact
                         </NavLink>
                     </li>
+                    <li className="nav-item b-title bt16">
+                        <NavLink to={"/login"} target={'_blank'} className="nav-link key">
+                            <img src={key} alt="auth"/>
+                        </NavLink>
+                    </li>
                 </ul>
             </nav>
-            {/*<div className="login-container">*/}
-            {/*    <button className="hamburger-button styled-btn-1 styled-btn">☰</button>*/}
-            {/*    <a href="/login">Log In</a>*/}
-            {/*</div>*/}
-
         </header>
     );
 };
