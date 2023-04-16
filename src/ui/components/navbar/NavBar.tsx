@@ -1,7 +1,7 @@
 import React from 'react';
-import logo from '../../assets/images/logo-inverse.webp';
 import {Link} from "react-router-dom";
 import './NavBar.scss';
+
 
 export const NavBar = () => {
     return (
