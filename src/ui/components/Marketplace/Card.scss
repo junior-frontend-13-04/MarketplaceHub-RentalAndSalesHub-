@@ -1,39 +1,38 @@
+@import "src/ui/styles/global/variables";
+
 .card-list {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  background: $color1;
 
   .card {
     flex: 0 1 calc(33.33% - 16px);
     margin-bottom: 32px;
 
     &__title {
-      font-size: 20px;
-      font-weight: bold;
       margin-bottom: 8px;
     }
 
     &__subtitle {
-      font-size: 16px;
-      color: #666;
+      color: $color7;
       margin-bottom: 16px;
     }
 
     &__image {
       width: 100%;
-      height: auto;
-      margin-bottom: 16px;
+      height: 250px; /* or any other desired value */
+      object-fit: cover; /* or any other desired value */
     }
 
     &__content {
-      font-size: 16px;
-      color: #333;
+      color: $color7;
     }
 
     &__button {
       display: inline-block;
-      background-color: #333;
-      color: #fff;
+      background-color: $color9;
+      color: $color7;
       border-radius: 4px;
       padding: 8px 16px;
       text-decoration: none;
@@ -47,7 +46,6 @@
 }
 .card__price {
   font-size: 1.2rem;
-  font-weight: bold;
   margin-bottom: 0.5rem;
 }
 
