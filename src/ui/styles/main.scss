@@ -1,4 +1,4 @@
-//reset & normalize styles
+
 //common
 @import "./global/variables.scss",
 "./global/mixins.scss",
@@ -12,4 +12,5 @@
 // pages
 @import "../pages/RecoveryPassword/RecoveryPassword",
 "../pages/Login/Login",
-"../pages/NotFound/NotFound";
+"../pages/NotFound/NotFound",
+"../pages/Contact/Contact";
