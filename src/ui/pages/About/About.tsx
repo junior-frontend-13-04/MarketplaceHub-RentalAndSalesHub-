@@ -2,7 +2,7 @@ import React from 'react';
 
 export const About = () => {
     return (
-        <div className='gradient'>
+        <div className='bg-img'>
 
         </div>
     );
